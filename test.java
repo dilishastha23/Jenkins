@@ -1,4 +1,3 @@
-
 class devops
 {
     public static void main (String Dilisha[])
