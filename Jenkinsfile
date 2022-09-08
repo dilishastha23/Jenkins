@@ -7,9 +7,19 @@ pipeline {
                 echo 'Hello World'
             }
         }
-        stage('Hello1') {
+        stage('python') {
             steps {
                 sh 'python3 test.py'
+            }
+        }
+        stage('java1') {
+            steps {
+                sh 'javac test.java'
+            }
+        }
+        stage('java2') {
+            steps {
+                sh 'java devops'
             }
         }
     }
